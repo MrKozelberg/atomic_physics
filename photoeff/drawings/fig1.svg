@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -15,11 +13,111 @@
    height="340.15747"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="fig1.svg"
-   version="1.0">
+   version="1.0"
+   inkscape:export-filename="fig1.png"
+   inkscape:export-xdpi="400.39999"
+   inkscape:export-ydpi="400.39999">
   <defs
      id="defs4">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1696" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1693" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1690" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1601"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1599"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1513"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1511"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect973"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect957"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.000408163"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect951"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.000408163"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
     <marker
        inkscape:stockid="Arrow1Lstart"
        orient="auto"
@@ -27,7 +125,8 @@
        refX="0.0"
        id="marker4199"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path4197"
          d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
@@ -192,6 +291,77 @@
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
          transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4199-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4197-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4199-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4197-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1696-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-3-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1696-8-3" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-6"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path2534-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -200,13 +370,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.1785437"
-     inkscape:cx="157.31857"
-     inkscape:cy="228.51052"
+     inkscape:zoom="2"
+     inkscape:cx="154.6783"
+     inkscape:cy="186.55831"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:window-width="1366"
-     inkscape:window-height="708"
+     inkscape:window-height="713"
      inkscape:window-x="0"
      inkscape:window-y="31"
      width="12.8cm"
@@ -220,7 +390,9 @@
      inkscape:guide-points="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0"
+     inkscape:snap-midpoints="false">
     <sodipodi:guide
        orientation="vertical"
        position="56.476527"
@@ -262,6 +434,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -280,19 +453,14 @@
        id="path42"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#1fc7f1;stroke:#000000;stroke-width:0.318;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 93.82677,86.708652 116.50394,48.913376 101.38583,41.354321 Z"
        id="path44"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#1fc7f1;stroke:#000000;stroke-width:0.318;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 48.47243,79.149582 86.267711,101.82676 93.82677,86.708652 Z"
        id="path44-7"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 48.472441,79.149597 101.38583,41.354321"
-       id="path93"
        inkscape:connector-curvature="0" />
     <path
        style="fill:url(#linearGradient2494);stroke:#000000;stroke-width:0.318;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1;fill-rule:nonzero"
@@ -300,7 +468,7 @@
        id="path116"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:url(#linearGradient2494-5);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.31799999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#linearGradient2494-5);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.318;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 189.03936,45.354321 -7.55905,18.897638 7.55905,18.897639 7.55906,-18.897639 z"
        id="path116-5"
        inkscape:connector-curvature="0" />
@@ -310,42 +478,42 @@
        id="path116-9"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
-       d="m 309.92126,83.149597 7.55906,45.354323"
+       style="fill:none;stroke:#000000;stroke-width:0.577351px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="m 309.92126,83.149597 7.55906,15.11812"
        id="path2528"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="302.49921"
-       y="135.73839"
+       x="302.10538"
+       y="105.98299"
        id="text2532"><tspan
          sodipodi:role="line"
          id="tspan2530"
-         x="302.49921"
-         y="135.73839"
+         x="302.10538"
+         y="105.98299"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math'">Конденсор</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="135.68457"
-       y="143.64661"
+       x="107.57024"
+       y="143.87569"
        id="text2532-7"><tspan
          sodipodi:role="line"
          id="tspan2530-5"
-         x="135.68457"
-         y="143.64661"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math'">Призменный  монохроматор</tspan></text>
+         x="107.57024"
+         y="143.87569"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math'">Призменный  монохроматор УМ-2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="297.7449"
-       y="14.698102"
+       x="269.72009"
+       y="13.331779"
        id="text2532-9"><tspan
          sodipodi:role="line"
          id="tspan2530-0"
-         x="297.7449"
-         y="14.698102"
+         x="269.72009"
+         y="13.331779"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math'">Входная щель</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker4137)"
@@ -358,8 +526,8 @@
        id="path4181"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker4199)"
-       d="m 272.12598,30.236211 22.67717,-15.11811"
+       style="fill:none;stroke:#000000;stroke-width:0.57735px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker4199)"
+       d="M 272.12598,30.236211 279.68504,15.11811"
        id="path4189"
        inkscape:connector-curvature="0" />
     <path
@@ -394,5 +562,204 @@
          y="12.099423"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math'"
          id="tspan4848-3">Диспергирующая призма</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:4,4;stroke-dashoffset:0"
+       d="m 37.795276,188.97638 v 52.91338 h 60.472441 v -52.91338"
+       id="path935" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.232;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 52.913386,211.65354 c 3.392597,4.83008 9.215623,7.85594 15.118109,7.85594 5.902487,0 11.725514,-3.02586 15.118111,-7.85594"
+       id="path971"
+       inkscape:path-effect="#path-effect973"
+       inkscape:original-d="m 52.913386,211.65354 c 5.040036,2.61969 10.079407,5.23833 15.118109,7.85594 5.038704,2.6176 10.079407,-5.23625 15.118111,-7.85594" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="109.89526"
+       y="162.00154"
+       id="text2532-9-7"><tspan
+         sodipodi:role="line"
+         id="tspan2530-0-5"
+         x="109.89526"
+         y="162.00154"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math'">Выходная щель</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker4199-1)"
+       d="M 109.38583,181.41732 132.063,166.29921"
+       id="path4189-8"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="104.14053"
+       y="240.95172"
+       id="text2532-9-8"><tspan
+         sodipodi:role="line"
+         id="tspan2530-0-0"
+         x="104.14053"
+         y="240.95172"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math'">Фотоэлемент типа Ф-5</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker4199-0)"
+       d="m 105.82677,219.2126 22.67717,15.11811"
+       id="path4189-4"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000404;stroke-width:1.04538;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1276"
+       cx="68.205406"
+       cy="209.75848"
+       rx="20.067514"
+       ry="19.447948" />
+    <path
+       style="fill:#1fc7f1;stroke:#000000;stroke-width:0.318;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 48.836504,79.33688 101.21059,41.199297 93.969409,86.335898 Z"
+       id="path1344" />
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000404;stroke-width:0.489941;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1352"
+       width="30.236219"
+       height="14.51593"
+       x="98.267715"
+       y="257.00787"
+       ry="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 68.031496,219.2126 v 45.35433"
+       id="path1354" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 68.031496,264.56693 H 98.267717"
+       id="path1356" />
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000404;stroke-width:0.979882;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1352-9"
+       width="60.47245"
+       height="29.03186"
+       x="83.149605"
+       y="287.24408"
+       ry="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 128.50394,264.56693 h 75.59055"
+       id="path1380" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 204.09449,241.88976 v 22.67717"
+       id="path1382" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 68.031496,204.09449 H 204.09449 v 22.67716"
+       id="path1384" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 90.708661,264.56693 v 22.67716"
+       id="path1390" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 136.06299,264.56693 v 22.67716"
+       id="path1392" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="91.333038"
+       y="303.67572"
+       id="text2532-9-7-4"><tspan
+         sodipodi:role="line"
+         id="tspan2530-0-5-2"
+         x="91.333038"
+         y="303.67572"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math'">Усилитель</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="111.27777"
+       y="266.54611"
+       id="text2532-9-7-2"><tspan
+         sodipodi:role="line"
+         id="tspan2530-0-5-20"
+         x="111.27777"
+         y="266.54611"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math'">R</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000404;stroke-width:1.49478;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1388-2"
+       cx="255.61285"
+       cy="234.05966"
+       r="16.948734" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.54185px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 204.09449,223.48951 h 38.49654"
+       id="path1394-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.52775px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 204.09449,243.88976 h 37.79527"
+       id="path1394-6-0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.61742px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend-3)"
+       d="m 241.88976,257.00787 37.79528,-45.35433"
+       id="path2377-0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="260.39685"
+       y="243.72603"
+       id="text2532-9-7-4-4"><tspan
+         sodipodi:role="line"
+         id="tspan2530-0-5-2-0"
+         x="260.39685"
+         y="243.72603"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math'">V</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000404;stroke-width:1.49478;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1388-2-1"
+       cx="194.43915"
+       cy="301.37329"
+       r="16.948734" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.54185px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 142.92078,290.80315 h 38.49654"
+       id="path1394-9-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.51664px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 143.46834,311.2034 h 37.24771"
+       id="path1394-6-0-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.61742px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend-3-4)"
+       d="m 180.71605,322.76245 37.79528,-45.35433"
+       id="path2377-0-9" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="200.33124"
+       y="310.43842"
+       id="text2532-9-7-4-8"><tspan
+         sodipodi:role="line"
+         id="tspan2530-0-5-2-8"
+         x="200.33124"
+         y="310.43842"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math'">i</tspan></text>
+    <circle
+       style="fill:#ffff00;stroke:#030300;fill-opacity:1;opacity:0.99999999;stroke-opacity:1;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1042"
+       cx="396.8504"
+       cy="64.251968"
+       r="3.7795277" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.719371px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart-6)"
+       d="m 394.54416,56.472441 -7.55905,-23.47058"
+       id="path2528-3"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="335.8443"
+       y="31.653717"
+       id="text2532-3"><tspan
+         sodipodi:role="line"
+         id="tspan2530-3"
+         x="335.8443"
+         y="31.653717"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math'">Источник света</tspan></text>
   </g>
 </svg>
