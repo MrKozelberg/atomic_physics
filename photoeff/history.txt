@@ -1,0 +1,35 @@
+import numpy as np
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4,5])
+plt.show
+plt.show()
+l = np.ndarray([6,5.86,5.70,5.54,5.38,5.22,5.05,4.86, 4.68, 4.44, 4.20, 3.98, 3.72, 3.46, 3.32, 3.16])
+l = np.asarray([6,5.86,5.70,5.54,5.38,5.22,5.05,4.86, 4.68, 4.44, 4.20, 3.98, 3.72, 3.46, 3.32, 3.16])
+v = np.asarray([7,6,6,6,5.5,5.2,4.8,4.4,4,3.4,3,2.4,1.6,1,0.4,0])*0.25
+from scipy.constants import c
+l = c / (l*10**(14))
+l
+v
+v / l
+nu = np.asarray([6,5.86,5.70,5.54,5.38,5.22,5.05,4.86, 4.68, 4.44, 4.20, 3.98, 3.72, 3.46, 3.32, 3.16])
+nu = np.asarray([6,5.86,5.70,5.54,5.38,5.22,5.05,4.86, 4.68, 4.44, 4.20, 3.98, 3.72, 3.46, 3.32, 3.16]) * 10**14
+nu
+np.mean(v/nu)
+from scipy.constants import у
+from scipy.constants import у
+from scipy.constants import e
+np.mean(v/nu)*e
+np.мфк(v/nu)*e
+np.var(v/nu)*e
+np.std(v/nu)*e
+err = np.sqrt( (np.std(v/nu)*e)**2 + (np.mean((0.025 * nu - V * 0.02) / nu))**2*e**2)
+err = np.sqrt( (np.std(v/nu)*e)**2 + (np.mean((0.025 * nu - v * 0.02) / nu))**2*e**2)
+err
+np.mean((0.025 * nu - v * 0.02) /
+    ...:  nu) * e
+-рудз
+-help
+_Helper
+hystory
+history
+
