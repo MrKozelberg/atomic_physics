@@ -1,9 +1,0 @@
-\babel@toc {russian}{}
-\contentsline {section}{\numberline {1}Теория}{2}{section.1}%
-\contentsline {section}{\numberline {2}Описание эксперимента}{3}{section.2}%
-\contentsline {section}{\numberline {3}Выволнение заданий}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Проверка закона Столетова}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Проверка наличия красной границы фотоэффекта}{5}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Определение постоянной Планка и красной границы фотоэффекта по данным, полученным с лампы накаливания}{8}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Вычисление постоянной Планка}{9}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Вывод}{9}{section.4}%
