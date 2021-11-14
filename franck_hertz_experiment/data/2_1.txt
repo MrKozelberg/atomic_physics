@@ -1,5 +1,5 @@
 # cutoff voltage is 40 +- 0.375 V
-# values of division of the a.v. and c. are 0.75 V and 1 muA
+# values of division of the a.v. and c. are 0.5 V and 1 muA
 # accelerating voltage (units)	current (muA)
 40	0
 41	0
