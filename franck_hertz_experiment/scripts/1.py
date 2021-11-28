@@ -58,16 +58,18 @@ def plotting2():
     ax.set_xlabel("Ускоряющий потенциал, В")
     ax.legend()
     
+    min_i = 27
+    
     # linear regression
-    cond = data1[:,0] * 0.5 > 25
+    cond = data1[:,0] * 0.5 > min_i
     x1 = np.take(data1[:,0]*0.5, np.nonzero(cond))
     y1 = np.take(data1[:,1], np.nonzero(cond))
     
-    cond = data2[:,0] * 0.5 > 25
+    cond = data2[:,0] * 0.5 > min_i
     x2 = np.take(data2[:,0]*0.5, np.nonzero(cond))
     y2 = np.take(data2[:,1], np.nonzero(cond))
     
-    cond = data3[:,0] * 0.5 > 25
+    cond = data3[:,0] * 0.5 > min_i
     x3 = np.take(data3[:,0]*0.5, np.nonzero(cond))
     y3 = np.take(data3[:,1], np.nonzero(cond))
     
@@ -77,10 +79,40 @@ def plotting2():
     y = np.append(y1, y2)
     y = np.append(y, y3)
     
+    print('{:.2f}'.format(np.std(y)))
+    
     p1 = np.poly1d(np.polyfit(x, y, 1))
     
-    ax.plot(np.arange(24,32), p1(np.arange(24,32)), color='black',
+    ax.plot(np.linspace(20,31,2), p1(np.linspace(20,31,2)), color='black',
             linestyle='-.')
+    
+    max_i = 24
+    
+    # linear regression
+    cond = data1[:,0] * 0.5 < max_i
+    x1 = np.take(data1[:,0]*0.5, np.nonzero(cond))
+    y1 = np.take(data1[:,1], np.nonzero(cond))
+    
+    cond = data2[:,0] * 0.5 < max_i
+    x2 = np.take(data2[:,0]*0.5, np.nonzero(cond))
+    y2 = np.take(data2[:,1], np.nonzero(cond))
+    
+    cond = data3[:,0] * 0.5 < max_i
+    x3 = np.take(data3[:,0]*0.5, np.nonzero(cond))
+    y3 = np.take(data3[:,1], np.nonzero(cond))
+    
+    x = np.append(x1, x2)
+    x = np.append(x, x3)
+    
+    y = np.append(y1, y2)
+    y = np.append(y, y3)
+    
+    print('{:.2f}'.format(np.std(y)))
+    
+    p1 = np.poly1d(np.polyfit(x, y, 1))
+    
+    ax.plot(np.linspace(16,35,2), p1(np.linspace(16,35,2)), color='black',
+            linestyle='--')
     
     fig.tight_layout()
     fig.savefig("../plots/2.pdf")
