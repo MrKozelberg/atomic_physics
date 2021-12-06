@@ -12,24 +12,36 @@ import numpy as np
 def plotting1():
     data = np.genfromtxt("../data/1.txt")
     
-    fig = plt.figure(figsize=(7,5))
+    p = np.poly1d(np.polyfit(data[:,0], data[:,1], 13))
+    x = data[:,0]
+    y = p(x)
+    
+    
+    fig = plt.figure(figsize=(9,6))
     ax = fig.add_subplot(111)
-    ax.errorbar(data[:,0], data[:,1]*50, xerr=0.5, yerr=0.25, c="gray",
-                lw=1, ecolor="red")
+    ax.errorbar(data[:,0], data[:,1], xerr=0.75, yerr=0.5, linestyle=' ',
+                lw=1, ecolor="black")
+    ax.plot(x, y, color='black', linestyle='-')
     
     ax.set_ylabel("Анодный ток, мА")
     ax.set_xlabel("Ускоряющий потенциал, В")
     
-    ax.set_xlim([10,62])
-    ax.set_ylim(2,20)
-    ax.set_xticks([12,20,24,30,40,48,50,60])
-    ax.set_xticklabels(['12','20',r'$\varphi_1$','30','40',r'$\varphi_2$','50','60'])
+    ax.set_xlim([-1,56])
+    ax.set_ylim(-1,70)
+    # ax.set_xticks([0,10,20,30,40,50])
+    # ax.set_xticklabels([0,10,20,30,40,50])
     
-    ax.vlines(24, 2, 0.37*50, linestyle=':', color='black')
-    ax.vlines(48, 2, 0.38*50, linestyle=':', color='black')
+    ax.axvline(x=20.5, linewidth=1, color='black', linestyle='--', label=r'$\varphi_1$')
+    ax.axvline(x=43.125, linewidth=1, color='black', linestyle=':', label=r'$\varphi_2$')
+    
+    ax.legend()
+    ax.grid()
     
     fig.tight_layout()
     fig.savefig("../plots/1.pdf")
+    
+    print(r'$\varphi_1 = {:}\pm{:.2}$'.format(20.50,np.sqrt(np.std([20,20.5,21])**2 + 0.75**2)))
+    print(r'$\varphi_2 = {:}\pm{:.2}$'.format(43.13,np.sqrt(np.std([42,43,43.5,44])**2 + 0.75**2)))
     
 def plotting2():
     data1 = np.genfromtxt('../data/2_1.txt')
@@ -119,6 +131,6 @@ def plotting2():
     
 
 if __name__ == "__main__":
-    # plotting1()
-    plotting2()
+    plotting1()
+    # plotting2()
     
