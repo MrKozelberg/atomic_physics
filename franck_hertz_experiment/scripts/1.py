@@ -21,7 +21,7 @@ def plotting1():
     ax = fig.add_subplot(111)
     ax.errorbar(data[:,0], data[:,1], xerr=0.75, yerr=0.5, linestyle=' ',
                 lw=1, ecolor="black")
-    ax.plot(x, y, color='black', linestyle='-')
+    ax.plot(x, y, color='black', linestyle='-', label='Аппроксимация полиномом 13 степени')
     
     ax.set_ylabel("Анодный ток, мА")
     ax.set_xlabel("Ускоряющий потенциал, В")
@@ -32,7 +32,7 @@ def plotting1():
     # ax.set_xticklabels([0,10,20,30,40,50])
     
     ax.axvline(x=20.5, linewidth=1, color='black', linestyle='--', label=r'$\varphi_1$')
-    ax.axvline(x=43.125, linewidth=1, color='black', linestyle=':', label=r'$\varphi_2$')
+    ax.axvline(x=43.125, linewidth=1, color='black', linestyle='-.', label=r'$\varphi_2$')
     
     ax.legend()
     ax.grid()
